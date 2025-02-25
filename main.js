@@ -121,13 +121,19 @@ new Chart(trainingCtx, {
     },
     options: {
         responsive: true,
+        maintainAspectRatio: true,
+        aspectRatio: 1.5, // Reduced from 1.5 to make it taller
         plugins: {
             legend: {
-                position: 'bottom'
+                position: 'right',
+                labels: {
+                    padding: 15 // Add padding to space out legend items
+                }
             }
         }
     }
 });
+
 
 // Navbar scroll effect
 const navbar = document.querySelector('.navbar');
