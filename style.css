@@ -166,6 +166,9 @@ body {
     display: none;
 }
 
+#publications {
+    display: none;
+}
 
 section {
     padding: 6rem 2rem;
