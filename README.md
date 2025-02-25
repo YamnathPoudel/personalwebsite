@@ -1,2 +1,2 @@
-# My Personal Website
+# personalwebsite
 https://yamnathpoudel.com.np/
