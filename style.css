@@ -161,6 +161,12 @@ body {
 }
 
 /* Sections */
+
+#achievements {
+    display: none;
+}
+
+
 section {
     padding: 6rem 2rem;
 }
